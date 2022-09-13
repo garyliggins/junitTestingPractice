@@ -1,8 +1,5 @@
 package com.kenzie.app;
 
-import javax.swing.*;
-import java.util.ArrayList;
-
 public class Main {
 
     public static String addGreeting(String inputStr){
@@ -30,5 +27,10 @@ public class Main {
     
     public static void main(String[] args) {
         System.out.println("Unit Test Activity");
+
+        addGreeting("gary");
+        addNumbers(2,3);
+        System.out.println(countCharacter('Y',"larYY"));
+
     }
 }
